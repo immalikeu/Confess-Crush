@@ -2,7 +2,7 @@ const CONFIG = {
     titleWeb: "Gửi ai đó <3 <3",
     introTitle: 'Chuyện là ...',
     introDesc: `Anh có điều này muốn hỏi em, nhớ
-    phảo trả lời thật lòng nha`,
+    phải trả lời thật lòng nha`,
     btnIntro: '^^HiHi^^',
     title: 'Coca và Pepsi em thích cái nào? 🥰',
     desc: ' ',
