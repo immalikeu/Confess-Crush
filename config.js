@@ -1,20 +1,18 @@
 const CONFIG = {
-    titleWeb: "Tiêu đề web",
-    introTitle: 'Tên người yêu bạn',
-    introDesc: `Trái đất vốn lạ thường
-    Mà sao em cứ đi nhầm đường
-    Lạc vào tim anh lẻ loi
-    Đằng sau chữ yêu đây là thương`,
+    titleWeb: "Gửi ai đó <3 <3",
+    introTitle: 'Chuyện là ...',
+    introDesc: `Anh có điều này muốn hỏi em, nhớ
+    phảo trả lời thật lòng nha`,
     btnIntro: '^^HiHi^^',
-    title: 'Phải chăng em đã yêu ngay từ cái nhìn đầu tiên 🥰',
-    desc: 'Phải chăng em đã say ngay từ lúc thấy nụ cười ấy ',
-    btnYes: 'Thích lắm <33',
-    btnNo: 'Không nha :3',
-    question: 'Trên thế giới hơn 7 tỉ người mà sao bạn lại yêu mình <3',
+    title: 'Coca và Pepsi em thích cái nào? 🥰',
+    desc: ' ',
+    btnYes: 'Thích anhh <33',
+    btnNo: 'Không thích gì hết nha :3',
+    question: 'Trên thế giới hơn 7 tỉ người mà sao em lại thích anh <3',
     btnReply: 'Gửi cho bạn <3',
-    reply: 'Yêu thì yêu mà không yêu thì yêu <33333333',
-    mess: 'Mình biết mà 🥰. Yêu bạn nhiều nhiều 😘😘',
-    messDesc: 'Tối nay 7h, mình qua đón đi chơi nha.',
+    reply: 'Tại vì anh đẹp trai hihi <33333333',
+    mess: 'Biết mà 🥰. Love you 3000 😘😘',
+    messDesc: 'Happy Birthday to you! Gửi đến em những lời chúc ngọt ngào nhất và chúc em som co duoc anh. ',
     btnAccept: 'Okiiiii lun <3',
     messLink: 'https://m.me/imma411.' //link mess của các bạn. VD: https://m.me/nam.nodemy
 }
