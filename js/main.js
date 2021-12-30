@@ -25,11 +25,12 @@ function init() {
 
     $('#no').css("left", xNo);
     $('#no').css("top", y);
+    var audio = new Audio('sound/duck.mp3');
+    audio.play();
 }
 
 function firstQuestion() {
-    var audio = new Audio('sound/sound.mp3');
-    audio.play();
+    
     $('.content').hide();
     Swal.fire({
         title: CONFIG.introTitle,
@@ -47,7 +48,7 @@ function firstQuestion() {
 
 // switch button position
 function switchButton() {
-    var audio = new Audio('sound/sound.mp3');
+    var audio = new Audio('sound/duck.mp3');
     audio.play();
     var leftNo = $('#no').css("left");
     var topNO = $('#no').css("top");
