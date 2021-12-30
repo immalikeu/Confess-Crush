@@ -1,6 +1,8 @@
 $(document).ready(function() {
     // process bar
     setTimeout(function() {
+           var audio = new Audio('sound/sound.mp3');
+    audio.play();
         firstQuestion();
         $('.spinner').fadeOut();
         $('#preloader').delay(350).fadeOut('slow');
@@ -11,6 +13,8 @@ $(document).ready(function() {
 })
 
 function init() {
+    var audio = new Audio('sound/sound.mp3');
+    audio.play();
     document.getElementById('titleWeb').innerHTML = CONFIG.titleWeb
     $('#title').text(CONFIG.title)
     $('#desc').text(CONFIG.desc)
@@ -29,7 +33,8 @@ function init() {
 }
 
 function firstQuestion() {
-    
+    var audio = new Audio('sound/sound.mp3');
+    audio.play();
     $('.content').hide();
     Swal.fire({
         title: CONFIG.introTitle,
