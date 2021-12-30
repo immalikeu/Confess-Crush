@@ -25,8 +25,7 @@ function init() {
 
     $('#no').css("left", xNo);
     $('#no').css("top", y);
-    var audio = new Audio('sound/duck.mp3');
-    audio.play();
+   
 }
 
 function firstQuestion() {
@@ -72,7 +71,8 @@ function moveButton() {
 }
 
 init()
-
+ var audio = new Audio('sound/sound.mp3');
+    audio.play();
 var n = 0;
 $('#no').mousemove(function() {
     if (Math.random() < 0.5 || n == 1)
